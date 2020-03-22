@@ -70,8 +70,7 @@ def _tuple():
     d = (2,)  # 这才是元组
 #     range(6) 就相当于 (0, 1, 2, 3, 4, 5)。
 
-
-
+# 图形化界面
 def _matp():
     # !pip install matplotlib
     # !pip install matplotlib-venn
@@ -87,6 +86,8 @@ def _matp():
     v.get_label_by_id('01').set_text('\n'.join(moderators - admins))
 
     plt.show()
+
+
 if __name__ == '__main__':
     _list()
     # _matp()
