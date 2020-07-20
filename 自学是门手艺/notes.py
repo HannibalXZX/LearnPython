@@ -5,10 +5,17 @@
 #@File  :    str_notes.py
 #@Description：
 
+def other():
+    divmod(11, 3) # (3, 2)
+#
 def _asicc():
+    # 10 返回ASICC编码
     print(ord('\n'))
+    #
+    print(chr(10)) # 换行
+    # 憨
     print(chr(25000))
-
+    # ord('A') 65  ord('a') 97
 def _strcode():
     '''
     编码流程
@@ -89,5 +96,6 @@ def _matp():
 
 
 if __name__ == '__main__':
-    _list()
+    # _list()
     # _matp()
+    _asicc()
